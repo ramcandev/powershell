@@ -4,7 +4,7 @@
 #  Date Created: 16/02/2018
 #  Last Modified:                         
 #                          
-#   - this script is to change the registry value for BITSTcpPort, the port number can be modified at line34
+#   - this script is to add FW rule for VMM ports 5982-5987, the port number can be modified at line28
 #
 #
 #####################################################################################################################
