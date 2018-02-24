@@ -1,5 +1,5 @@
 #
-#Creator: ramacan
+#Creator: Ramazan Can
 #Last Modified: 24/07/14
 #
 #V1		- configure pagefile at all clusternodes connected to VMM 
