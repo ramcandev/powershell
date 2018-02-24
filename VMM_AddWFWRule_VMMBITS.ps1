@@ -23,7 +23,7 @@ $allcompcount=$allvmmmanagedcomputers.Count
 
 foreach ($comp in $allvmmmanagedcomputers) {
 ""
-    Write-Host "Adding FW Rule for SCVMM BITS Traffic Allow port 5985-5986 on $comp"
+    Write-Host "Adding FW Rule for SCVMM BITS Traffic Allow port 5985-5986-5987 on $comp"
     Invoke-Command -ComputerName $comp -ScriptBlock { 
         New-NetFirewallRule -DisplayName 'VMM Inbound Ports' -Profile @('Domain', 'Private') -Direction Inbound -Action Allow -Protocol TCP -LocalPort @('5985', '5986', '5987')
 
